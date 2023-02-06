@@ -6,7 +6,7 @@ import upwork from '../img/upwork.png';
 
 const Hero = () => {
   return (
-    <div className='bg-[#313036] w-full h-auto font-[poppins] pl-5'>
+    <div className='bg-[#313036] w-full h-auto font-[poppins] pl-5' id='Hero'>
       <img src={wave} alt='' className='absolute right-0 z-0' />
       <h1 className='Hero_title'>Tomas Sanchez</h1>
       <div className='flex mt-[3rem]'>
