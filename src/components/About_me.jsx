@@ -4,6 +4,7 @@ import wave2 from '../img/Wave2.png';
 const About_me = () => {
   return (
     <div className='bg-[#f5f5f5]'>
+      <div className='absolute mx-0' id='AboutMe'></div>
       <div className='flex justify-around text-[#313036] font-[poppins] mt-4'>
         <div className='w-5/12 mt-4 z-10'>
           <h1 className='text-4xl font-semibold leading-10 text-center'>
@@ -39,7 +40,7 @@ const About_me = () => {
           </p>
         </div>
       </div>
-      <img src={wave2} className='center -mt-64 w-full'/>
+      <img src={wave2} className='center -mt-64'/>
     </div>
   );
 };

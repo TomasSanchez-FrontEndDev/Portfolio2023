@@ -9,7 +9,7 @@ import {
 
 function App() {
   return ( 
-  <div className='flex w-screen m-0 scroll-behavior'>
+  <div className='flex m-0 p-0'>
     <Navbar />
     <div className='bg-[#f5f5f5]'>
       <Hero />

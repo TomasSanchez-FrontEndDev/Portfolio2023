@@ -3,7 +3,7 @@ import LinkChanger from './Especial_components/ActionButton';
 
 const Navbar = () => {
   return (
-    <div className='px-4 bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] h-screen flex flex-col text-center items-center sticky justify-evenly font-[poppins] top-0 bottom-0 left-0'>
+    <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] h-screen flex flex-col text-center items-center sticky justify-evenly font-[poppins] top-0 bottom-0 left-0 w-auto px-3'>
       <div className=''>
         <Hamburger />
       </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
         </a>
       </div>
       <hr className='w-8/12 border-[#313036]' />
-      <div>
-        <LinkChanger/>
+      <div className='mb-4'>
+        <LinkChanger />
       </div>
       <p className='mb-[10px] absolute bottom-0'>By TS</p>
     </div>

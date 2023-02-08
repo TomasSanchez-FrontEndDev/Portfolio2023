@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div id='skills' className='bg-[#313036] font-[poppins] text-white'>
+    <div id='Skills' className='bg-[#313036] font-[poppins] text-white'>
       <h1 className='text-6xl  leading-10 text-center pt-9'>Skills</h1>
       <div className='flex justify-around py-8'>
         {/* html5 skill_box */}

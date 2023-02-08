@@ -7,7 +7,7 @@ import Wave4 from '../img/Wave 4.png';
 
 const projects = () => {
   return (
-    <div>
+    <div className='w-full overflow-x-hidden' id='Projects'>
       <div className='flex text-center font-[poppins] pb-10'>
         <img src={wave3} alt='' className='h-8/12' />
         <div className='w-6/12 h-5/12 rounded-3xl mt-36 bg-[#313036] p-8 flex flex-col justify-around'>
@@ -32,7 +32,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <img src={Wave4} alt="Wave4" />
+      <img src={Wave4} alt="Wave4" className='w-full' />
     </div>
   );
 };
