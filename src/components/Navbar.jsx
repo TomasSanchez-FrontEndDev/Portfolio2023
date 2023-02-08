@@ -1,11 +1,13 @@
-import { Squash as Hamburger } from 'hamburger-react';
 import LinkChanger from './Especial_components/ActionButton';
+import Hamburguer from './Especial_components/Hamburguer'
+
+
 
 const Navbar = () => {
   return (
     <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] h-screen flex flex-col text-center items-center sticky justify-evenly font-[poppins] top-0 bottom-0 left-0 w-auto px-3'>
       <div className=''>
-        <Hamburger />
+        <Hamburguer />
       </div>
       <hr className='border-[#313036] w-11/12' />
       <ul className='flex flex-col justify-around space-y-[65px] mt-[33px] mb-[25px]'>
@@ -42,3 +44,5 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+
+
