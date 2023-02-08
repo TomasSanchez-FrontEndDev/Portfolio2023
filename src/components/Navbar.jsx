@@ -3,7 +3,7 @@ import Hamburguers from './Especial_components/Hamburguer'
 
 const Navbar = () => {
   return (
-    <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] h-screen flex flex-col text-center items-center sticky justify-evenly font-[poppins] top-0 bottom-0 left-0 w-auto px-3' id='Navbar'>
+    <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] h-screen flex flex-col text-center items-center sticky justify-evenly font-[poppins] top-0 bottom-0 left-0 w-auto px-3' id='NavBar'>
       <div className=''>
         <Hamburguers />
       </div>

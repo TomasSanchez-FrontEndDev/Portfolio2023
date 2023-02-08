@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800&display=swap');
 
+
 html body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -112,5 +113,5 @@ code {
 }
 
 .closeNavbar{
-  margin-top: 100px;
+  background: linear-gradient(180deg, #49FFE9 0%, #FF5CE5 78.42%);
 }

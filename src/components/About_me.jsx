@@ -5,12 +5,12 @@ const About_me = () => {
   return (
     <div className='bg-[#f5f5f5]'>
       <div className='absolute mx-0' id='AboutMe'></div>
-      <div className='flex justify-around text-[#313036] font-[poppins] mt-4'>
+      <div className='flex justify-around text-[#313036] font-[poppins] mt-4 md:ml-10'>
         <div className='w-5/12 mt-4 z-10'>
           <h1 className='text-4xl font-semibold leading-10 text-center'>
             About me
           </h1>
-          <p className='mt-2 leading-6 text-shadow'>
+          <p className='mt-2 leading-6 text-shadow' data-aos="zoom-in-up">
             As an electronic technician, I have acquired the ability to detect
             and solve problems in the most efficient way possible, I have a
             great ability to translate a possible problem to reality and solve
@@ -20,7 +20,7 @@ const About_me = () => {
             acquire knowledge in HTML5, CSS3, JS, and have the ability to use
             frameworks such as REACT and Tailwind.
           </p>
-          <p className='mt-20 leading-6 text-shadow'>
+          <p className='mt-20 leading-6 text-shadow' data-aos="zoom-in-down">
             In my daily life I love to spend time with my friends and family, I
             love to understand all possible aspects of life, existential
             questions are a great motivation. Learning more and more every day
@@ -32,7 +32,7 @@ const About_me = () => {
         </div>
         <div className='text-center mr-20 italic flex flex-col z-10'>
           <img src={Myphoto} />
-          <p className=''>
+          <p className='' >
             “People <b>hate</b> and <b>fear</b>
           </p>
           <p>
@@ -40,7 +40,7 @@ const About_me = () => {
           </p>
         </div>
       </div>
-      <img src={wave2} className='center -mt-64'/>
+      <img src={wave2} className='center lg:-mt-64 md:-mt-32'/>
     </div>
   );
 };

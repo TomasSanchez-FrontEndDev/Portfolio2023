@@ -7,10 +7,10 @@ import upwork from '../img/upwork.png';
 const Hero = () => {
   return (
     <div className='bg-[#313036] overflow-x-hidden w-full' id='Hero'>
-      <div className='font-[poppins] pl-10'>
-        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0' />
+      <div className='font-[poppins] pl-10' >
+        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0 md:hidden lg:flex' />
         <h1 className='Hero_title'>Tomas Sanchez</h1>
-        <div className='flex mt-[3rem]'>
+        <div className='flex mt-[3rem] md:block lg:flex'>
           <div className='w-[30.65rem] space-y-[2rem]'>
             <div className='flex flex-col text-[#D9D9D9] text-5xl leading-[3.75rem]'>
               <p>Front End</p>
@@ -42,17 +42,17 @@ const Hero = () => {
           <img src={rectangle} alt='' className='right-0' />
           <ul className='flex content-center absolute right-0 space-x-16 mr-1'>
             <li className='items-center flex'>
-              <a href=''>
+              <a href='https://www.upwork.com/freelancers/~01e81106e7dd32b02f?viewMode=1' target={'_blank'}>
                 <img src={upwork} />
               </a>
             </li>
             <li>
-              <a href=''>
+              <a href='https://github.com/TomasSanchez-FrontEndDev' target={'_blank'}>
                 <img src={github} />
               </a>
             </li>
             <li>
-              <a href=''>
+              <a href=' www.linkedin.com/in/SanchezTomasFED' target={'_blank'}>
                 <img src={linkedin} />
               </a>
             </li>

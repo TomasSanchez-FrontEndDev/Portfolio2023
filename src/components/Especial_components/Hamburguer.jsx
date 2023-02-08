@@ -1,12 +1,10 @@
 import React from 'react'
-import { Squash as Hamburger } from 'hamburger-react'
-
-
-var navbar = document.getElementById("NavBar");
+import Squash from 'hamburger-react'
 
 const Hamburguer = () => {
+  var navbar = document.getElementById("NavBar");
   return (
-    <Hamburger onToggle={toggled => {
+    <Squash onToggle={toggled => {
       if (toggled) {
          navbar.classList.add("closeNavbar")
       } else {
