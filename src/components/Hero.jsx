@@ -6,12 +6,12 @@ import upwork from '../img/upwork.png';
 
 const Hero = () => {
   return (
-    <div className='bg-[#313036] overflow-x-hidden w-full' id='Hero'>
-      <div className='font-[poppins] pl-10' >
-        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0 md:hidden lg:flex' />
+    <div className='bg-[#313036] overflow-x-hidden md:w-full w-screen' id='Hero'>
+      <div className='font-[poppins] md:pl-10 pl-3' >
+        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0 md:hidden hidden lg:flex' />
         <h1 className='Hero_title'>Tomas Sanchez</h1>
-        <div className='flex mt-[3rem] md:block lg:flex'>
-          <div className='w-[30.65rem] space-y-[2rem]'>
+        <div className='mt-[3rem] md:block lg:flex block'>
+          <div className='md:w-[30.65rem] w-full space-y-[2rem]'>
             <div className='flex flex-col text-[#D9D9D9] text-5xl leading-[3.75rem]'>
               <p>Front End</p>
               <p className='text-center'>Developer</p>
@@ -25,7 +25,7 @@ const Hero = () => {
               about all the worlds that exist.
             </p>
           </div>
-          <div className='w-[25.75rem] ml-16 space-y-[3rem]'>
+          <div className='md:w-[25.75rem] w-full md:ml-16 space-y-[3rem] pb-3 md:pb-0'>
             <h1 className='text-[#72EFDD] text-4xl leading-[3.75rem]'>
               As a programmer...
             </h1>
@@ -38,7 +38,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className='flex justify-end items-center'>
+        <div className='md:flex justify-end items-center hidden'>
           <img src={rectangle} alt='' className='right-0' />
           <ul className='flex content-center absolute right-0 space-x-16 mr-1'>
             <li className='items-center flex'>

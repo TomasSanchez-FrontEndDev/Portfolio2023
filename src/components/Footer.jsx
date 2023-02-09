@@ -5,7 +5,7 @@ import WhatsappIcon from '../img/WhatsappIcon.png';
 
 const Footer = () => {
   return (
-    <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] pb-8 font-[poppins]' id='Footer' >
+    <div className='bg-gradient-to-b from-[#72EFDD] to-[#72EF9C] pb-8 font-[poppins] px-3 md:px-0' id='Footer' >
       <div className='flex justify-evenly'>
         <div className='bg-[#313036] flex flex-col w-14 p-2 rounded-2xl space-y-3'>
           <a href=''>

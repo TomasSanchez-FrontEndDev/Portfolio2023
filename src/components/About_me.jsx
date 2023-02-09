@@ -5,8 +5,8 @@ const About_me = () => {
   return (
     <div className='bg-[#f5f5f5]'>
       <div className='absolute mx-0' id='AboutMe'></div>
-      <div className='flex justify-around text-[#313036] font-[poppins] mt-4 md:ml-10'>
-        <div className='w-5/12 mt-4 z-10'>
+      <div className='md:flex justify-around text-[#313036] font-[poppins] mt-4 md:ml-10 block'>
+        <div className='md:w-5/12 mt-4 z-10 px-2 md:px-0'>
           <h1 className='text-4xl font-semibold leading-10 text-center'>
             About me
           </h1>
@@ -30,7 +30,7 @@ const About_me = () => {
             possible way.
           </p>
         </div>
-        <div className='text-center mr-20 italic flex flex-col z-10'>
+        <div className='text-center md:mr-20 italic flex flex-col z-10 mr-5'>
           <img src={Myphoto} />
           <p className='' >
             “People <b>hate</b> and <b>fear</b>
@@ -40,7 +40,7 @@ const About_me = () => {
           </p>
         </div>
       </div>
-      <img src={wave2} className='center lg:-mt-64 md:-mt-32'/>
+      <img src={wave2} className='center lg:-mt-64 md:-mt-32 -mt-1'/>
     </div>
   );
 };

@@ -4,7 +4,8 @@ const Skills = () => {
   return (
     <div id='Skills' className='bg-[#313036] font-[poppins] text-white'>
       <h1 className='text-6xl  leading-10 text-center pt-9'>Skills</h1>
-      <div className='flex justify-around py-8'>
+      <div className='md:flex md:justify-around py-8 skills space-y-3'>
+
         {/* html5 skill_box */}
         <div className='flex flex-col items-center text-center'>
           <h2 className='text-2xl'>Html5</h2>

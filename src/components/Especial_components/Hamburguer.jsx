@@ -14,6 +14,7 @@ const Hamburguer = () => {
         console.log(toggled);
         if (toggled) {
           navbar.classList.add('closeNavbar');
+          
         } else {
           navbar.classList.remove('closeNavbar');
         }
