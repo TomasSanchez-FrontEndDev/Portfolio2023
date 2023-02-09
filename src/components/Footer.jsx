@@ -35,9 +35,6 @@ const Footer = () => {
             <img src={github} alt='' />
           </a>
           <a href=''>
-            <img src={LinkedinIcon} alt='' />
-          </a>
-          <a href=''>
             <img src={upwork} alt='' />
           </a>
         </div>
