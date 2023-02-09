@@ -46,7 +46,7 @@ const projects = () => {
           </div>
           <div className='text-right cursor-pointer'>
             <a href='' className='noHover '>
-              <button className='w-52 h-16 text-center rounded-[40px] bg-gradient-to-b from-[#79FFA6] to-[#72EFDD] mt-3'>
+              <button className='w-52 h-16 text-center rounded-[40px] bg-gradient-to-b from-[#79FFA6] to-[#72EFDD] mt-3' onClick={changeproject}>
                 <p className='text-2xl'>{'->'}</p>
               </button>
             </a>
