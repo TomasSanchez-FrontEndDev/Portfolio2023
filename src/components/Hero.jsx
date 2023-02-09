@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className='bg-[#313036] overflow-x-hidden md:w-full w-screen' id='Hero'>
       <div className='font-[poppins] md:pl-10 pl-3' >
-        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0 md:hidden hidden lg:flex' />
+        <img src={wave} alt='' className='absolute z-0 ml-20 top-0 right-0 hidden lg:flex' id='wave1'/>
         <h1 className='Hero_title'>Tomas Sanchez</h1>
         <div className='mt-[3rem] md:block lg:flex block'>
           <div className='md:w-[30.65rem] w-full space-y-[2rem]'>

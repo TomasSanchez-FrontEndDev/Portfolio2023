@@ -40,7 +40,7 @@ const About_me = () => {
           </p>
         </div>
       </div>
-      <img src={wave2} className='center lg:-mt-64 md:-mt-32 -mt-1'/>
+      <img src={wave2} className='center lg:-mt-64 md:-mt-32 -mt-1' id='wave2'/>
     </div>
   );
 };

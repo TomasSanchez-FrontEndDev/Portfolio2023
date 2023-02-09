@@ -9,7 +9,7 @@ const projects = () => {
   return (
     <div className='w-full overflow-x-hidden' id='Projects'>
       <div className='flex text-center font-[poppins] pb-10 justify-center lg:justify-start'>
-        <img src={wave3} alt='' className='h-8/12 hidden lg:flex' />
+        <img src={wave3} alt='' className='h-8/12 hidden lg:flex' id='wave3'/>
         <div className='lg:w-6/12 w-11/12 rounded-3xl md:mt-36 mt-8 bg-[#313036] p-8 flex flex-col justify-around'>
           <h1 className='text-white text-5xl'>Projects</h1>
           <div className='flex flex-col justify-around h-4/6'>
@@ -53,7 +53,7 @@ const projects = () => {
           </div>
         </div>
       </div>
-      <img src={Wave4} alt='Wave4' className='w-full' />
+      <img src={Wave4} alt='Wave4' className='w-full' id='wave4'/>
     </div>
   );
 };
